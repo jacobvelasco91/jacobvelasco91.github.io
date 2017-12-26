@@ -2,7 +2,6 @@
   margin:0;
   padding:0;
 }
-.landing-image img {
-  width:100%;
-  hieght:100vh;
+body {
+  font-family: 'Raleway', sans-serif;
 }
