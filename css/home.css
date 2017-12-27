@@ -16,7 +16,7 @@ header {
   height:6em;
 }
 .badge {
-  background-color: #FA8072;
+  background-color: #e8501f;
   vertical-align: top;
   display: inline-block;
   width:5%;
@@ -57,8 +57,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   padding-bottom: 3px;
-  border-bottom: 1px solid #FA8072;
-
+  border-bottom: 1px solid #e8501f;
 }
 .icon-links {
   display:inline-block;
@@ -74,7 +73,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   margin-left:1em;
   margin-right:1em;
-
+  transition: 0.5s;
 }
 .github {
   background-image: url(../images/githubGray.png);
@@ -92,22 +91,21 @@ nav ul li a:hover {
 /*start of landing page title*/
 
 .landing-title {
-  margin-top:6em;
-  margin-left:5em;
+  margin-top: 15em;
 }
 .landing-title h1 {
   font-size: 5em;
   color:white;
+  text-align: center;
 }
 
-/*start of projects*/
+/*************** projects section ***************/
 #projects {
   padding:5em;
 }
 #projects h2 {
   font-size: 4em;
   text-align: center;
-
 }
 .project-cases {
   text-align: center;
@@ -184,4 +182,74 @@ nav ul li a:hover {
   background-image: url(../images/html.png);
   background-size:contain;
   background-repeat: no-repeat;
+}
+
+/**************** work section ****************/
+
+#Work {
+  padding: 5em;
+  background-color: #485158;
+}
+#Work h2 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+.client {
+  margin:1em;
+  padding:2em;
+  text-align: center;
+  color: white;
+  border: 1px dashed lightgray;
+}
+.client h3 {
+  font-size: 1.5em;
+  padding:1em;
+}
+progress {
+  width:20em;
+}
+
+
+/**************** about section ****************/
+
+#About {
+  padding: 5em;
+
+}
+#About h2 {
+  color: #e8501f;
+  font-size: 4em;
+  text-align: center;
+}
+#About p {
+  text-align: center;
+  color:gray;
+  font-size: 1em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  padding:10px;
+}
+.profile {
+  margin:1em auto 1em auto;
+  width:12em;
+  height:12em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/profilepic.png);
+}
+.email-button {
+  width:50px;
+  height:50px;
+  background-image: url(../images/email_icon.png);
+  background-size: cover;
+  border: none;
+}
+
+/**************** Footer Section *****************/
+footer {
+  text-align: center;
+  margin-bottom: 2em;
 }
