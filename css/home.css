@@ -5,8 +5,183 @@
 body {
   font-family: 'Raleway', sans-serif;
 }
-.top-container {
-  width:100px;
-  height: 100px;
-  background-image: url('images/desk.png');
+.landing-container {
+  width:100%;
+  height: 100vh;
+  background-image: url(../images/desk.png);
+  background-size: cover;
+}
+header {
+  width:100%;
+  height:6em;
+}
+.badge {
+  background-color: #FA8072;
+  vertical-align: top;
+  display: inline-block;
+  width:5%;
+  height:90%;
+  border-radius: 0px 0px 4px 4px;
+  margin-left:5em;
+}
+.badge-letters {
+  text-align: center;
+}
+.badge-letters a {
+  text-decoration: none;
+  color:white;
+}
+.badge-letters h2 {
+  margin-top: 1em;
+  font-size: 1.8em;
+}
+nav {
+  display:inline-block;
+  margin-top: 2em;
+}
+nav ul {
+  margin-left: 2em;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color:white;
+  padding:5px 15px;
+  font-size:20px;
+  margin-left: 5px;
+  margin-right:5px;
+}
+nav ul li a:hover {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #FA8072;
+
+}
+.icon-links {
+  display:inline-block;
+  float: right;
+  margin-top: 2em;
+  margin-right:1em;
+}
+.link {
+  display: inline-block;
+  width:1.8em;
+  height:1.8em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left:1em;
+  margin-right:1em;
+
+}
+.github {
+  background-image: url(../images/githubGray.png);
+}
+.github:hover {
+  background-image: url(../images/githubHover.png);
+}
+.linkin {
+  background-image: url(../images/linkedGray.png);
+}
+.linkin:hover {
+  background-image: url(../images/linkedHover.png);
+}
+
+/*start of landing page title*/
+
+.landing-title {
+  margin-top:6em;
+  margin-left:5em;
+}
+.landing-title h1 {
+  font-size: 5em;
+  color:white;
+}
+
+/*start of projects*/
+#projects {
+  padding:5em;
+}
+#projects h2 {
+  font-size: 4em;
+  text-align: center;
+
+}
+.project-cases {
+  text-align: center;
+  height:8em;
+  padding:2em;
+}
+.case {
+  vertical-align: top;
+  display: inline-block;
+  width:6em;
+  height:6em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left:1em;
+  margin-right:1em;
+}
+.cart {
+  background-image: url(../images/cartCase.png);
+}
+.cart:hover {
+  padding-bottom:6px;
+  border-bottom: 2px solid lightgray;
+}
+.survey {
+  background-image: url(../images/surveyCase.png);
+}
+.survey:hover {
+  padding-bottom:6px;
+  border-bottom: 2px solid lightgray;
+}
+#projects p {
+  text-align: center;
+  font-size: 3em;
+}
+.skillset {
+  padding: 3em;
+  text-align: center;
+}
+.skill {
+  display: inline-block;
+  margin:10px;
+}
+.php {
+  width:7.5em;
+  height:4em;
+  background-image: url(../images/php.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.mysql {
+  width:7.5em;
+  height:4em;
+  background-image: url(../images/mysql.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.js {
+  width:7.5em;
+  height:4em;
+  background-image: url(../images/javascript.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.css {
+  width:7.5em;
+  height:4em;
+  background-image: url(../images/CSS3.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.html {
+  width:7.5em;
+  height:4em;
+  background-image: url(../images/html.png);
+  background-size:contain;
+  background-repeat: no-repeat;
 }
