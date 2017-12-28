@@ -228,6 +228,12 @@ progress {
   line-height: 25px;
   padding:10px;
 }
+#About a {
+  color:black;
+}
+#About a:hover {
+  color:gray;
+}
 .span {
   text-align: center;
   color:gray;
