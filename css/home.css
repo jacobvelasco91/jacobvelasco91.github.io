@@ -230,6 +230,7 @@ progress {
 }
 #About a {
   color:black;
+  text-decoration: underline;
 }
 #About a:hover {
   color:gray;
