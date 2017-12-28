@@ -215,7 +215,6 @@ progress {
 
 #About {
   padding: 5em;
-
 }
 #About h2 {
   color: #e8501f;
@@ -232,6 +231,10 @@ progress {
   line-height: 25px;
   padding:10px;
 }
+.span {
+  text-align: center;
+  color:gray;
+}
 .profile {
   margin:1em auto 1em auto;
   width:12em;
@@ -240,14 +243,59 @@ progress {
   background-repeat: no-repeat;
   background-image: url(../images/profilepic.png);
 }
-.email-button {
-  width:50px;
-  height:50px;
-  background-image: url(../images/email_icon.png);
-  background-size: cover;
-  border: none;
+.button {
+  text-align: center;
 }
 
+#email-button {
+  width: 3.5em;
+  height:2em;
+  background-image: url(../images/gmail-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition:box-shadow 0.3s;
+}
+#email-button:hover {
+  box-shadow: 1px 1px 3px black;
+}
+
+/*************** email form ****************/
+#email-form {
+  width:100%;
+}
+.form-contents { /*div is the whole block ; add width and height, then you can center it with margins*/
+  width:35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 4px;
+  padding:1em;
+}
+.form-contents input {
+  width:70%;
+  height:auto;
+  margin: 0.5em 0;
+  padding:1em;
+  border-radius: 4px;
+  border: none;
+}
+.form-contents textarea {
+  width:70%;
+  height:3em;
+  padding:1em;
+  border: none;
+  border-radius: 4px;
+}
+.submit:hover {
+  transition: 0.5s;
+  color:white;
+  background-color: #e8501f;
+}
 /**************** Footer Section *****************/
 footer {
   text-align: center;
