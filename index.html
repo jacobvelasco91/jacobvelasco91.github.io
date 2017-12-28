@@ -9,6 +9,27 @@
     <title>Jacob Velasco</title>
     <link rel="stylesheet" href="./css/home.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Barlow|Raleway" rel="stylesheet">
+    <!--
+    <script type="text/javascript">
+    var once = 0
+      function email() {
+
+        if (once == 0) {
+          once++;
+          var form = "<form id='email-form' action='./index.html?hello=world' method='GET'>"+
+            "<div class='form-contents'>"+
+              "<input type='text' name='name' placeholder='name' required><br>"+
+              "<input type='text' name='email' placeholder='email' required><br>"+
+              "<input type='text' name='subject' placeholder='subject'"+ "required><br>"+
+              "<textarea name='message' placeholder='message'"+ "required></textarea><br>"+
+              "<input class='submit' type='submit' name='submit' value='send'>"+
+            "</div>"+
+          "</form>";
+          document.getElementsByClassName('button').appendChild(form);
+        }
+
+      }
+    </script> -->
   </head>
   <body>
 
@@ -80,7 +101,20 @@
         <p>Hi, my name is Santos Jacob Velasco, but I normally go by Jacob. This site expresses my ambition to create, develop, and deploy web applications. I'm 26 years old, married to my beautiful wife, and a humbled follower of Jesus Christ. I have developed a keen interest in web development, in that I recently graduated with my Associates, focusing on computer programming. Though I'm barely getting my feet wet in this industry, I am striving to also be a strong contributor in the web development community. </p>
         <div class="profile">
         </div>
-        <button class="email-button"></button>
+        <div class="span"><span>contact</span></div>
+        <form id='email-form' action='http://me-blog.000webhostapp.com/' method='GET'>
+          <div class='form-contents'>
+            <input type='text' name='name' placeholder='name' required><br>
+            <input type='text' name='email' placeholder='email' required><br>
+            <input type='text' name='subject' placeholder='subject'"+ "required><br>
+            <textarea name='message' placeholder='message'"+ "required></textarea><br>
+            <input class='submit' type='submit' name='submit' value='send'>
+          </div>
+        </form>
+
+
+
+
       </section>
 
     </main>
