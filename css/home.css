@@ -107,35 +107,32 @@ nav ul li a:hover {
   font-size: 4em;
   text-align: center;
 }
-.project-cases {
+.project-aside {
   text-align: center;
-  height:8em;
-  padding:2em;
 }
 .case {
-  vertical-align: top;
   display: inline-block;
-  width:6em;
-  height:6em;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left:1em;
-  margin-right:1em;
+  text-align: center;
+  padding:2em;
 }
-.cart {
-  background-image: url(../images/cartCase.png);
+.case img {
+  width:5em;
 }
-.cart:hover {
-  padding-bottom:6px;
-  border-bottom: 2px solid lightgray;
+.case h4,a {
+  /*display: none;*/
+  text-decoration: none;
+  color:	white;
+  transition: 0.5s;
 }
-.survey {
-  background-image: url(../images/surveyCase.png);
+.case a:hover h4 {
+  color: #e8501f;
 }
-.survey:hover {
-  padding-bottom:6px;
-  border-bottom: 2px solid lightgray;
-}
+
+
+
+
+
+
 #projects p {
   text-align: center;
   font-size: 3em;
