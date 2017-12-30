@@ -104,7 +104,7 @@ nav ul li a:hover {
   padding:5em;
 }
 #projects h2 {
-  font-size: 4em;
+  font-size: 3.5em;
   text-align: center;
 }
 .project-aside {
@@ -128,75 +128,45 @@ nav ul li a:hover {
   color: #e8501f;
 }
 
-
-
-
-
-
 #projects p {
   text-align: center;
   font-size: 3em;
 }
-.skillset {
-  padding: 3em;
+/*************** Skillset section ******************/
+#skillset {
+  margin-top: 3em;
+  height: 12em;
+  padding:5em;
+  background-color: #e8501f;
   text-align: center;
 }
-.skill {
+#skillset h2 {
+  color: white;
+  font-size: 3.5em;
+}
+#skillset li {
   display: inline-block;
-  margin:10px;
-}
-.php {
-  width:7.5em;
-  height:4em;
-  background-image: url(../images/php.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-}
-.mysql {
-  width:7.5em;
-  height:4em;
-  background-image: url(../images/mysql.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-}
-.js {
-  width:7.5em;
-  height:4em;
-  background-image: url(../images/javascript.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-}
-.css {
-  width:7.5em;
-  height:4em;
-  background-image: url(../images/CSS3.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-}
-.html {
-  width:7.5em;
-  height:4em;
-  background-image: url(../images/html.png);
-  background-size:contain;
-  background-repeat: no-repeat;
+  color: white;
+  padding: 3em;
+  font-size: 1em;
 }
 
 /**************** work section ****************/
 
 #Work {
   padding: 5em;
-  background-color: #485158;
+  background-color: white;
 }
 #Work h2 {
-  color: white;
-  font-size: 4em;
+  color: #485158;
+  font-size: 3.5em;
   text-align: center;
 }
 .client {
   margin:1em;
   padding:2em;
   text-align: center;
-  color: white;
+  color: #485158;
   border: 1px dashed lightgray;
 }
 .client h3 {
@@ -212,15 +182,16 @@ progress {
 
 #About {
   padding: 5em;
+  background-color: #485158;
 }
 #About h2 {
   color: #e8501f;
-  font-size: 4em;
+  font-size: 3.5em;
   text-align: center;
 }
 #About p {
   text-align: center;
-  color:gray;
+  color:lightgray;
   font-size: 1em;
   width: 70%;
   margin-left: auto;
@@ -301,6 +272,7 @@ progress {
 }
 /**************** Footer Section *****************/
 footer {
+  margin-top: 2em;
   text-align: center;
   margin-bottom: 2em;
 }
