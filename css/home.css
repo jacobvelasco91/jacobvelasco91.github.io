@@ -73,7 +73,6 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   margin-left:1em;
   margin-right:1em;
-  transition: 0.5s;
 }
 .github {
   background-image: url(../images/githubGray.png);
