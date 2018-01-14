@@ -2,124 +2,137 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Santos Jacob Velasco">
     <meta name="keywords" content="portfolio,resume,work,experience,display,web,development,design,programming,internet">
     <meta name="description" content="My web portfolio showcasing my experiencein as a full stack web developer.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jacob Velasco</title>
-    <link rel="stylesheet" href="./css/home.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
   </head>
   <body>
 
-    <div class="landing-container">
+    <div class="land">
+    <header>
+      <h1>Design. Develop. Deploy.</h1>
+      <ul>
+        <a class="anchor" href="#skill-set"><li>Skill Set</li></a>
+        <a class="anchor" href="#portfolio"><li>Portfolio</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </header>
 
-      <header>
-        <div class="badge">
-          <div class="badge-letters">
-            <a href="./index.html"><h2>JV</h1></a>
-          </div>
-        </div>
-        <nav>
-          <ul>
-            <li> <a href="#projects">Projects</a> </li>
-            <li> <a href="#Work">Work</a> </li>
-            <li> <a href="#About">About</a> </li>
-            <li> <a href="#About">Get in Touch</a> </li>
-          </ul>
-        </nav>
-        <div class="icon-links">
-          <a href="http://www.github.com/jacobvelasco91" target="_blank"><div class="link github"></div></a>
-          <a href="https://www.linkedin.com/in/santos-velasco/" target="_blank"><div class="link linkin"></div></a>
-        </div>
-      </header>
+    <section id="about">
+    <div class="photo">
+      <img src="./images2/profileMobile.png" alt="profile image">
+    </div>
+    <h3>Creative Web Developer</h3>
+    <div class="line"></div>
+      <h2>
+        Hi, my name is Santos Jacob Velasco. Here I am able to express my new found interest in web development. Through my ambition to design, develop and deploy web applications I am in route to master the full stack. I'm twenty-six years old, my faith in Christ, and married to my beautiful wife. If you have any questions, please contact me!
+      </h2>
 
-      <div class="landing-title">
-        <h1>Design. Develop. Deploy</h1>
-      </div>
+      <a class="button" href="#contact">
+          <p class="contact">Contact</p>
+      </a>
+
+      <a class="button" href="#portfolio">
+        <p class="portfolio">Portfolio</p>
+      </a>
+
+    </section>
+    <div class="background-image"></div>
+    <div class="background-gradient"></div>
 
     </div>
 
 
-    <main>
+    <section id="skill-set">
+      <h2 class="section-title"> <span> < &#47; </span> Skill Set <span> > </span> </h2>
+      <div class="skill">
+        <div class="icon">
+        <img src="./images2/html-logo.png" alt="html icon logo">
+        </div>
+        <p>For meaning and purpose</p>
+      </div>
+      <div class="skill">
+        <p>Make things beautiful with</p>
+        <div class="icon">
+        <img src="./images2/css-logo.png" alt="css icon logo">
+        </div>
+      </div>
+      <div class="skill">
+        <div class="icon">
+          <img src="./images2/JS.png" alt="javascript icon logo">
+        </div>
+        <p>Allows for dynamic content</p>
+      </div>
+      <div class="skill">
+        <p>Backend programming with </p>
+        <div class="icon">
+          <img src="./images2/php-logo.png" alt="php icon logo">
+        </div>
+      </div>
+      <div class="skill">
+        <div class="icon">
+          <img src="./images2/sql-logo.png" alt="sql icon logo">
+          <p>To manage relational databases</p>
+        </div>
+      </div>
+    </section>
 
-
-      <section id="projects">
-
-        <h2>Projects</h2>
-
-        <aside class="project-aside">
-          <div class="case">
-            <a href="http://velasco-projects.000webhostapp.com/survey-engine/index.php" target="_blank">
-            <img src="./images/surveyCase.png" alt="survey image">
-            <h4>survey engine</h4>
-            </a>
-          </div>
-          <div class="case">
-            <a href="http://velasco-projects.000webhostapp.com/shopping-cart/" target="_blank">
-            <img src="./images/cartCase.png" alt="shopping cart image">
-            <h4>shopping cart</h4>
-            </a>
-          </div>
-        </aside>
-      </section>
-
-
-      <section id="skillset">
-        <h2>Skill Set</h2>
+    <section id="portfolio">
+      <div class="icon">
+        <img src="./images2/flat-computer.png" alt="computer icon image">
+      </div>
+      <h2 class="section-title">Portfolio</h2>
+      <div class="show-case">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>PHP</li>
-          <li>MySQL</li>
+          <li><a href="http://velasco-projects.000webhostapp.com/survey-engine/index.php" target="_blank">
+            <div class="case">
+              <img src="./images2/surveyCase.png" alt="clipboard icon image">
+              <h3>Survey Engine</h3>
+            </div>
+          </li></a>
+          <li><a href="http://velasco-projects.000webhostapp.com/shopping-cart/" target="_blank">
+            <div class="case">
+              <img src="./images2/cartCase.png" alt="shopping cart icon image">
+              <h3>E-Commerce Webstore</h3>
+            </div>
+          </li></a>
+          <li>
+            <div class="case">
+              <img src="./images2/PERSON-icon.png" alt="person icon image">
+              <h3>Survey Engine</h3>
+            </div>
+          </li>
         </ul>
+      </div>
+    </section>
 
-      </section>
+    <footer id="contact">
+      <h2 class="section-title">Contact</h2>
 
-      <section id="Work">
-        <h2>Client Work</h2>
-        <div class="client">
-          <h3>premieresound.com in progress...</h3>
-          <progress value="15" max="100"></progress>
-        </div>
-        <div class="client">
-          <h3>refinedbulldogs.com in progress...</h3>
-          <progress value="5" max="100"></progress>
-        </div>
-      </section>
+      <a href="tel:+1-951-337-1333">
+      <div class="contact">
+      <img src="./images2/cellphone-logo.png" alt="cellphone icon image">
+      <p>951-337-1333</p>
+      </div>
+      </a>
 
-
-      <section id="About">
-        <h2>About</h2>
-        <p>Hi, my name is Santos Jacob Velasco. This site expresses my ambition to create, develop, and deploy web applications. I'm 26 years old, married to my beautiful wife, and a humbled follower of Jesus Christ. I have developed a keen interest in web development, in that I recently graduated with my Associates in computer programming. Though I have just begun to get my feet wet in this industry, I'm striving to contribute to the web development community. Contact me for web services, or any questions. <a href="./velascoResume.pdf" download>Resume<sup><small>pdf<small></sup></a> </p>
-        <div class="profile">
-        </div>
-        <div class="span"> <span>contact</span> </div>
-        <form id='email-form' action='https://me-blog.000webhostapp.com/sendmail.php' method='POST'>
-          <div class='form-contents'>
-
-            <input type='text' name='name' placeholder='name' required><br>
-            <input type='text' name='email' placeholder='email' required><br>
-            <input type='text' name='subject' placeholder='subject'"+ "required><br>
-            <textarea name='message' placeholder='message'"+ "required></textarea><br>
-            <input class='submit' type='submit' name='submit' value='send'>
-          </div>
-        </form>
+      <a href="mailto:jacobvelasco91@gmail.com">
+      <div class="contact">
+      <img src="./images2/email.png" alt="email icon image">
+      <p>jacobvelasco91@gmail.com</p>
+      </div>
+      </a>
 
 
-
-
-      </section>
-
-    </main>
-
-
-
-    <footer>
-      <p>Santos Jacob Velasco | portfolio 2018</p>
     </footer>
+
+
 
 
 
