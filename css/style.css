@@ -6,7 +6,9 @@
 body {
   font-family: 'Alegreya Sans', sans-serif;
   text-align  :center;
-  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
 }
 /*"Globals"*/
 .button {
