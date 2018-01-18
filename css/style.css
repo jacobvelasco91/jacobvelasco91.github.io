@@ -84,10 +84,6 @@ body {
 
 
 
-
-
-
-
 /*skillset*/
 #skill-set {
   background-color: white;
@@ -232,7 +228,7 @@ body {
 .resume {
   width:7em;
   height: auto;
-  margin:1.5em auto 4em auto;
+  margin:1.5em auto 3em auto;
 }
 .resume p {
   padding:.5em .5em;
